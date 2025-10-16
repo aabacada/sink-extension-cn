@@ -1,0 +1,1 @@
+chrome.runtime.onInstalled.addListener(()=>{chrome.contextMenus.create({id:"sinkShortUrl",title:"生成短链接",contexts:["link"]})});chrome.contextMenus.onClicked.addListener((e,n)=>{e.menuItemId==="sinkShortUrl"&&e.linkUrl&&chrome.storage.local.set({pendingUrl:e.linkUrl},()=>{chrome.action.openPopup().catch(o=>{})})});console.log("background loaded");
