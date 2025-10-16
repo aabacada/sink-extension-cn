@@ -1,5 +1,5 @@
 <h1 align="center">Sink短网址Chrome扩展程序sink-extension v0.05中文版</h1>
-相关内容介绍前往https://github.com/ggllqzy/sink-extension查看，本页面只涉及汉化
+相关功能介绍前往 https://github.com/ggllqzy/sink-extension 查看，本页面只涉及汉化
 
 ### 🚀手动安装
 您可以按照以下步骤安装该扩展：
